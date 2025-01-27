@@ -1,11 +1,7 @@
 import type { Route } from "./+types/_index";
 import Navbar from "~/components/navbar";
-import Hero from '~/components/hero'
 import Cms from "~/components/cms";
-import Features from "~/components/features";
-import Banner from "~/components/banner";
-import FAQs from "~/components/faqs";
-import Contact from "~/components/contact";
+
 
 export function meta({}: Route.MetaArgs ) {
     return [
