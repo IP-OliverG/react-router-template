@@ -2,8 +2,7 @@ import type { Route } from "./+types/_index";
 import Navbar from "~/components/navbar";
 import Cms from "~/components/cms";
 import Footer from "~/components/footer";
-import Contact from "~/components/contact";
-
+import FAQs from "~/components/faqs";
 
 export function meta({}: Route.MetaArgs ) {
     return [
@@ -19,8 +18,8 @@ export default function IndexRoute() {
             <Cms />
             {/* <Features /> */}
             {/* <Banner /> */}
-            {/* <FAQs /> */}
-            <Contact />
+            <FAQs />
+            {/* <Contact /> */}
             <Footer />
         </div>    
     )
