@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '~/components/ui/accordion'
-import DotPattern from './dot-pattern'
+
 
 const faqs = [
     {
@@ -55,16 +55,16 @@ const FAQs = () => {
                   </h1>
               </div>
               <div className='mt-20 flex items-center justify-between'>
-                  <DotPattern
+                 {/*  <DotPattern
                       width={20}
                       height={20}
                       cx={1}
                       cy={1}
                       cr={1}
-                      /* className={cn(
+                      className={cn(
                           'fill-primary/40 [mask-image:linear-gradient(to_bottom,transparent,white,white,transparent,transparent)]'
-                      )} */
-                  />
+                      )}
+                  /> */}
                   <Accordion
                       collapsible
                       type='single'
