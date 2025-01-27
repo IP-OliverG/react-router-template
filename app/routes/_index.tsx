@@ -22,7 +22,7 @@ export default function IndexRoute() {
             {/* <Features /> */}
             {/* <Banner /> */}
             {/* <FAQs /> */}
-            <Contact />
+            {/* <Contact /> */}
             {/* <Footer /> */}
         </div>    
     )
