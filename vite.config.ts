@@ -4,6 +4,7 @@ import tailwindcss from "tailwindcss";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import netlifyPlugin from "@netlify/vite-plugin-react-router";
+import path from "path"
 
 export default defineConfig({
   css: {
@@ -12,4 +13,9 @@ export default defineConfig({
     },
   },
   plugins: [reactRouter(), tsconfigPaths(), netlifyPlugin()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
 });
