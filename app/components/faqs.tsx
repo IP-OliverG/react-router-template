@@ -5,7 +5,6 @@ import {
   AccordionTrigger,
 } from '~/components/ui/accordion'
 import DotPattern from './dot-pattern'
-import { cn } from '~/lib/utils'
 
 const faqs = [
     {
@@ -62,9 +61,9 @@ const FAQs = () => {
                       cx={1}
                       cy={1}
                       cr={1}
-                      className={cn(
+                      /* className={cn(
                           'fill-primary/40 [mask-image:linear-gradient(to_bottom,transparent,white,white,transparent,transparent)]'
-                      )}
+                      )} */
                   />
                   <Accordion
                       collapsible
