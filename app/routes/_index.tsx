@@ -2,6 +2,7 @@ import type { Route } from "./+types/_index";
 import Navbar from "~/components/navbar";
 import Hero from '~/components/hero'
 import Cms from "~/components/cms";
+import Features from "~/components/features";
 
 export function meta({}: Route.MetaArgs ) {
     return [
@@ -15,7 +16,7 @@ export default function IndexRoute() {
             <Navbar />
             {/* <Hero /> */}
             <Cms />
-            {/* <Features /> */}
+            <Features />
             {/* <Banner /> */}
             {/* <FAQs /> */}
             {/* <Contact /> */}
