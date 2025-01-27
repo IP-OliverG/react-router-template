@@ -3,6 +3,7 @@ import Navbar from "~/components/navbar";
 import Hero from '~/components/hero'
 import Cms from "~/components/cms";
 import Features from "~/components/features";
+import Banner from "~/components/banner";
 
 export function meta({}: Route.MetaArgs ) {
     return [
@@ -16,8 +17,8 @@ export default function IndexRoute() {
             <Navbar />
             {/* <Hero /> */}
             <Cms />
-            <Features />
-            {/* <Banner /> */}
+            {/* <Features /> */}
+            <Banner />
             {/* <FAQs /> */}
             {/* <Contact /> */}
             {/* <Footer /> */}
