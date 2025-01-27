@@ -2,6 +2,7 @@ import type { Route } from "./+types/_index";
 import Navbar from "~/components/navbar";
 import Cms from "~/components/cms";
 import Footer from "~/components/footer";
+import Contact from "~/components/contact";
 
 
 export function meta({}: Route.MetaArgs ) {
@@ -19,7 +20,7 @@ export default function IndexRoute() {
             {/* <Features /> */}
             {/* <Banner /> */}
             {/* <FAQs /> */}
-            {/* <Contact /> */}
+            <Contact />
             <Footer />
         </div>    
     )
