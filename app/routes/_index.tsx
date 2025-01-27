@@ -4,6 +4,7 @@ import Hero from '~/components/hero'
 import Cms from "~/components/cms";
 import Features from "~/components/features";
 import Banner from "~/components/banner";
+import FAQs from "~/components/faqs";
 
 export function meta({}: Route.MetaArgs ) {
     return [
@@ -18,8 +19,8 @@ export default function IndexRoute() {
             {/* <Hero /> */}
             <Cms />
             {/* <Features /> */}
-            <Banner />
-            {/* <FAQs /> */}
+            {/* <Banner /> */}
+            <FAQs />
             {/* <Contact /> */}
             {/* <Footer /> */}
         </div>    
