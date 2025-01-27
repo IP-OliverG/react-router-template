@@ -1,6 +1,5 @@
 import { useForm } from '@formspree/react'
 import { Loader2Icon, MoveRightIcon } from 'lucide-react'
-import { cn } from '~/lib/utils'
 import { Button } from './ui/button'
 import { Input } from './ui/input'
 import { Label } from './ui/label'
@@ -10,15 +9,15 @@ const Hero = () => {
     const [state, handleSubmit] = useForm('mdkakbwq')
     return (
         <main className='mx-auto my-10 flex min-h-[calc(100vh-73px)] max-w-2xl flex-col justify-center gap-6 px-5 text-center lg:my-0'>
-            <h1 className={cn(
+            <h1 className={
                     'scroll-m-20 font-inter text-4xl font-extrabold tracking-tight lg:text-5xl opacity: 1, y: 0'
-                )}
+                }
             >
                 <span className='text-white bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
                     AI Powered
                 </span>{' '}
          
-                <span className={cn('relative bg-gradient-to-r from-primary bg-clip-text text-5xl font-extrabold text-transparent lg:text-8xl to-purple-600')}>
+                <span className={'relative bg-gradient-to-r from-primary bg-clip-text text-5xl font-extrabold text-transparent lg:text-8xl to-purple-600'}>
                     Complaints Management
                 </span>
             </h1>
@@ -44,10 +43,10 @@ const Hero = () => {
                 </div>
                 {!state.succeeded && (
                     <Button
-                        className={cn(
-                            'flex w-full justify-between',
-                            state.submitting && 'justify-center'
-                        )}
+                        className={
+                            'flex w-full justify-between'
+                            /* state.submitting && 'justify-center' */
+                        }
                         type='submit'
                         disabled={state.submitting}
                     >
