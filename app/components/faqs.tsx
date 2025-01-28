@@ -3,9 +3,9 @@
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '~/components/ui/accordion'
+} from '~/components/ui/accordion' */
 import DotPattern from './dot-pattern'
-import { cn } from '~/lib/utils' */
+import { cn } from '~/lib/utils'
 
 const faqs = [
     {
@@ -55,7 +55,7 @@ const FAQs = () => {
                       </span>
                   </h1>
               </div>
-              {/* <div className='mt-20 flex items-center justify-between'>
+              <div className='mt-20 flex items-center justify-between'>
                   <DotPattern
                       width={20}
                       height={20}
@@ -66,7 +66,7 @@ const FAQs = () => {
                           'fill-primary/40 [mask-image:linear-gradient(to_bottom,transparent,white,white,transparent,transparent)]'
                       )}
                   />
-                  <Accordion
+                  {/* <Accordion
                       collapsible
                       type='single'
                       className='mx-auto w-full max-w-4xl grow basis-28 text-left'
@@ -81,8 +81,8 @@ const FAQs = () => {
                               </AccordionContent>
                           </AccordionItem>
                       ))}
-                  </Accordion>
-              </div> */}
+                  </Accordion> */}
+              </div>
           </div>
       </section>
   )
