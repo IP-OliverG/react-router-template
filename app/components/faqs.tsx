@@ -66,22 +66,7 @@ const FAQs = () => {
                           'fill-primary/40 [mask-image:linear-gradient(to_bottom,transparent,white,white,transparent,transparent)]'
                       )}
                   />
-                  <Accordion
-                      collapsible
-                      type='single'
-                      className='mx-auto w-full max-w-4xl grow basis-28 text-left'
-                  >
-                      {faqs.map((faq, index) => (
-                          <AccordionItem key={index} value={`item-${index}`}>
-                              <AccordionTrigger className='text-white text-left text-xl hover:no-underline'>
-                                  {faq.question}
-                              </AccordionTrigger>
-                              <AccordionContent className='text-white text-base text-muted-foreground'>
-                                  {faq.answer}
-                              </AccordionContent>
-                          </AccordionItem>
-                      ))}
-                  </Accordion>
+                  
               </div>
           </div>
       </section>
