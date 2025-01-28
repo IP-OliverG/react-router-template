@@ -1,11 +1,11 @@
-import {
+/* import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from '~/components/ui/accordion'
 import DotPattern from './dot-pattern'
-import { cn } from '~/lib/utils'
+import { cn } from '~/lib/utils' */
 
 const faqs = [
     {
@@ -38,8 +38,23 @@ const faqs = [
 const FAQs = () => {
   return (
       <section className='relative mx-auto px-5 pb-8 pt-48'>
-          <div className='mx-auto flex max-w-7xl flex-col gap-6 text-center'>
-              
+          {/* <div className='mx-auto flex max-w-7xl flex-col gap-6 text-center'>
+              <div>
+                  <span className='rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-sm font-medium text-primary dark:bg-primary/25'>
+                      <span className='brightness-[1.7]'>FAQs</span>
+                  </span>
+                  <h1 className='mt-4 scroll-m-20 font-inter text-4xl font-extrabold tracking-tight lg:text-5xl'>
+                      <span className='text-white bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
+                          Frequently{' '}
+                      </span>
+                      <span className='text-white bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
+                          asked{' '}
+                      </span>
+                      <span className='text-white bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
+                          questions
+                      </span>
+                  </h1>
+              </div>
               <div className='mt-20 flex items-center justify-between'>
                   <DotPattern
                       width={20}
@@ -68,7 +83,7 @@ const FAQs = () => {
                       ))}
                   </Accordion>
               </div>
-          </div>
+          </div> */}
       </section>
   )
 }
