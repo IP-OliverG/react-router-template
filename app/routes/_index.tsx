@@ -4,6 +4,7 @@ import Cms from "~/components/cms";
 import Footer from "~/components/footer";
 import FAQs from "~/components/faqs";
 import Banner from "~/components/banner";
+import Contact from "~/components/contact";
 
 export function meta({}: Route.MetaArgs ) {
     return [
@@ -20,7 +21,7 @@ export default function IndexRoute() {
             {/* <Features /> */}
             <Banner />
             <FAQs />
-            {/* <Contact /> */}
+            <Contact />
             <Footer />
         </div>    
     )
