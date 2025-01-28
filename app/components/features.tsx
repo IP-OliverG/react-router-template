@@ -7,7 +7,7 @@ import {
     ChartNoAxesCombined,
 } from 'lucide-react'
 import { type FeatureCardProps } from '~/types/feature-card'
-/* import FeatureCard from './feature-card' */
+import FeatureCard from './feature-card'
 
 const featuresData: FeatureCardProps[] = [
     {
@@ -91,7 +91,7 @@ const Features = () => {
                     </span>
                 </p>
             </div>
-            {/* <div>
+            <div>
                 <ul className='mt-20 grid place-content-center gap-20 md:grid-cols-2 lg:grid-cols-3'>
                     {featuresData.map((feature, i) => (
                         <li key={i}>
@@ -104,7 +104,7 @@ const Features = () => {
                         </li>
                     ))}
                 </ul>
-            </div> */}
+            </div>
         </section>
     )
 }

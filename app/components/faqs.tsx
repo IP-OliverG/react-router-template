@@ -1,9 +1,9 @@
-/* import {
+import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '~/components/ui/accordion' */
+} from '~/components/ui/accordion'
 import DotPattern from './dot-pattern'
 import { cn } from '~/lib/utils'
 
@@ -66,7 +66,7 @@ const FAQs = () => {
                           'fill-primary/40 [mask-image:linear-gradient(to_bottom,transparent,white,white,transparent,transparent)]'
                       )}
                   />
-                  {/* <Accordion
+                  <Accordion
                       collapsible
                       type='single'
                       className='mx-auto w-full max-w-4xl grow basis-28 text-left'
@@ -81,7 +81,7 @@ const FAQs = () => {
                               </AccordionContent>
                           </AccordionItem>
                       ))}
-                  </Accordion> */}
+                  </Accordion>
               </div>
           </div>
       </section>

@@ -1,8 +1,8 @@
 import { Loader2Icon } from 'lucide-react'
-/* import { Button } from './ui/button'
+import { Button } from './ui/button'
 import { Input } from './ui/input'
 import { Label } from './ui/label'
-import { Textarea } from './ui/textarea' */
+import { Textarea } from './ui/textarea'
 import { useForm } from '@formspree/react'
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
                     </span>
                 </p>
             </div>
-            {/* <form
+            <form
                 onSubmit={handleSubmit}
                 className='gradient-border relative flex w-full max-w-xl flex-grow basis-0 flex-col gap-4 rounded-md bg-gradient-to-br from-white/5 to-transparent p-6 before:bg-gradient-to-br before:from-white/5 before:to-transparent'
             >
@@ -105,7 +105,7 @@ const Contact = () => {
                         Message sent!
                     </Button>
                 )}
-            </form> */}
+            </form>
         </section>
     )
 }
