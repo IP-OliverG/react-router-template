@@ -5,6 +5,7 @@ import Footer from "~/components/footer";
 import FAQs from "~/components/faqs";
 import Banner from "~/components/banner";
 import Contact from "~/components/contact";
+import Features from "~/components/features";
 
 export function meta({}: Route.MetaArgs ) {
     return [
@@ -18,7 +19,7 @@ export default function IndexRoute() {
             <Navbar />
             {/* <Hero /> */}
             <Cms />
-            {/* <Features /> */}
+            <Features />
             <Banner />
             <FAQs />
             <Contact />
