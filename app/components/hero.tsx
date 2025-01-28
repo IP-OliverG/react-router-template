@@ -1,9 +1,9 @@
 import { useForm } from '@formspree/react'
 import { Loader2Icon, MoveRightIcon } from 'lucide-react'
 import { cn } from '~/lib/utils'
-import { Button } from './ui/Button'
-import { Input } from './ui/Input'
-import { Label } from './ui/Label'
+import { Button } from './ui/button'
+import { Input } from './ui/input'
+import { Label } from './ui/label'
 import Anchor from './icons/anchor'
 
 const Hero = () => {
