@@ -1,6 +1,6 @@
-import { Button } from './ui/button'
+/* import { Button } from './ui/button'
 import { Input } from './ui/input'
-import { Label } from './ui/label'
+import { Label } from './ui/label' */
 import { useForm } from '@formspree/react'
 import { Loader2Icon } from 'lucide-react'
 import NewLogo from './icons/newlogo'
@@ -39,7 +39,7 @@ const Banner = () => {
                             Unlock the potential of your business with
                             SaaSStellar. Experience simplified operations.
                         </p>
-                        <form
+                        {/* <form
                             onSubmit={handleSubmit}
                             className='mx-auto flex w-full max-w-md flex-col items-end gap-2 lg:mx-0 lg:flex-row'
                         >
@@ -81,7 +81,7 @@ const Banner = () => {
                                     You're in!
                                 </Button>
                             )}
-                        </form>
+                        </form> */}
                     </div>
                     <NewLogo
                         linearFrom='text-primary'
