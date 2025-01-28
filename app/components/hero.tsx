@@ -25,7 +25,7 @@ const Hero = () => {
             <p className='text-base text-muted-foreground lg:text-lg' >
             Leveraging AI at every stage, <span className='text-primary'>mycomplaints.ai</span> enhances the analysis, investigation, root cause identification, remediation, and response processes, driving greater efficiency and accuracy throughout.{' '}
             </p>
-            {/* <form onSubmit={handleSubmit} className='mx-auto mt-8 flex w-full max-w-sm flex-col items-end space-y-2'>
+            <form onSubmit={handleSubmit} className='mx-auto mt-8 flex w-full max-w-sm flex-col items-end space-y-2'>
                 <div className='flex w-full max-w-sm flex-col items-start gap-1.5'>
                     <Label
                         className='text-left text-muted-foreground'
@@ -75,7 +75,7 @@ const Hero = () => {
                     </p>
                 )}
                 <p className='w-full text-center text-sm text-muted-foreground'></p>
-            </form> */}
+            </form>
             <span className='mx-auto'>
                 <Anchor
                     className='h-56'
